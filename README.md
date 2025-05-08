@@ -16,3 +16,25 @@ Objectives
     To design and implement a multipage desktop GUI using Python’s Tkinter framework.
 
     To demonstrate version control practices using Git and GitHub.
+
+CMP7005_PRAC1/
+│
+├── data/
+│   ├── raw/                       # Original datasets (csv)
+│   └── processed/                 # Cleaned and merged data
+│
+├── src/
+│   ├── eda.py                     # Functions for data exploration
+│   ├── modelling.py               # ML model training and evaluation
+│   └── preprocessing.py           # Data cleaning and feature engineering
+│
+├── gui/
+│   ├── main.py                    # Main GUI launcher
+│   ├── page_overview.py           # GUI Page 1: Data Overview
+│   ├── page_eda.py                # GUI Page 2: EDA Visualisations
+│   └── page_prediction.py         # GUI Page 3: Prediction Module
+│
+├── figures/                       # Output plots and charts
+├── README.md                      # Project documentation
+├── CMP7005_Report.ipynb          # Main notebook (all tasks)
+└── requirements.txt              # List of Python libraries used
