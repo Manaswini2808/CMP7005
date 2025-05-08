@@ -38,3 +38,62 @@ CMP7005_PRAC1/
 ├── README.md                      # Project documentation
 ├── CMP7005_Report.ipynb          # Main notebook (all tasks)
 └── requirements.txt              # List of Python libraries used
+
+
+
+
+
+
+
+
+Key Components
+1. Data Handling
+
+Data from four station types (urban, suburban, rural, industrial) were selected and merged. Preprocessing steps included:
+
+    Missing value imputation
+
+    Feature extraction (timestamp features)
+
+    Data cleaning and normalisation
+
+2. Exploratory Data Analysis (EDA)
+
+EDA was conducted using:
+
+    Summary statistics and distribution plots
+
+    Correlation heatmaps
+
+    Seasonal and temporal visualisations
+
+3. Modelling
+
+Three regression models were developed:
+
+    Linear Regression
+
+    Random Forest Regressor
+
+    XGBoost Regressor
+    The Random Forest model achieved the highest accuracy based on R², MAE, and RMSE scores.
+
+4. GUI Application
+
+A multipage GUI was implemented with Tkinter, providing:
+
+    Page 1: Dataset overview with pollutant trends
+
+    Page 2: Interactive EDA visualisations
+
+    Page 3: PM2.5 prediction based on user inputs
+
+5. Version Control
+
+All work was version-controlled using Git. The repository contains:
+
+    Clean commit history
+
+    Modular code development
+
+    Feature branches for testing
